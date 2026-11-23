@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/larrypage.css">
+    <title>Spending Larry Page money</title>
+
+
+</head>
+
+
+<body>
+
+
+    <br><br><br>
+
+
+    <header>
+        <img id="LarryPageImage" src="data:image/jpeg;base64,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" alt="لری پیج">
+        <h2 style="margin-top: 115px;">
+            ثروت فعلی لری پیج(تومان):
+        </h2>
+        <br>
+        <h1 id="money"></h1>
+    </header>
+
+            
+
+        
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/2d34bdbfe22110848b824b445f10c93f46c69adb_1775573192.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="کامپیوتر"> 
+        <br>
+        <p>کامپیوتر</p>
+        <p>قیمت: <b>400,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+       
+
+        
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/3bc3739348247275517dd14931b205e370de4369_1748436217.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="مانیتور"> 
+        <br>
+        <p>مانیتور</p>
+        <p>قیمت: <b>28,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+
+        
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/e2b454328ed411ea9130a4bef2e1bee87a2daed8_1754245427.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ماوس و کیبورد"> 
+        <br>
+        <p>ماوس و کیبورد</p>
+        <p>قیمت: <b>3,200,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/378202c282cdaf4466d7497a5e615e96c7edb724_1747147025.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="فلش مموری"> 
+        <br>
+        <p>فلش مموری</p>
+        <p>قیمت: <b>1,500,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/5ac4c7f50871860aa76de0346da862fd379f0a69_1764062868.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="موبایل"> 
+        <br>
+        <p>لپ تاپ</p>
+        <p>قیمت: <b>220,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/26aa21dc59b10010c1a338d0266f532d67148711_1758351224.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="موبایل"> 
+        <br>
+        <p>موبایل هوشمند</p>
+        <p>قیمت: <b>450,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/e65b67f71f06015af329ac777602b55a07f9be0e_1754236524.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ps5"> 
+        <br>
+        <p>پلی استیشن 5</p>
+        <p>قیمت: <b>150,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+    
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/f47c1c6670157c6df7a6c460d10129503ce6d93c_1762109123.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ربات هوش مصنوعی"> 
+        <br>
+        <p>ربات هوش مصنوعی</p>
+        <p>قیمت: <b>70,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/4e184085eccac6ea6fe968db64b3be84b3665381_1771429001.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="هواپیما"> 
+        <br>
+        <p>هواپیمای شخصی</p>
+        <p>قیمت: <b>70,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/07aa868e918d599c7baa240abbfdaa3287a1173a_1704207145.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="جت"> 
+        <br>
+        <p>جت شخصی</p>
+        <p>قیمت: <b>70,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/7ac1dee8ce9097f80063e548fbb6f488a35cecae_1651146497.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="هلیکوپتر"> 
+        <br>
+        <p>هلیکوپتر شخصی</p>
+        <p>قیمت: <b>60,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/4a13b6c9cdef40b66ab5179ba4cea61fb0f3eb9a_1771333361.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="کشتی کروز">
+        <br>
+        <p>کشتی کروز</p>
+        <p>قیمت: <b>110,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/829e1cc542a74624b32511dae427e1e0c90d8953_1635100062.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ماشین فراری">
+        <br>
+        <p>ماشین فراری</p>
+        <p>قیمت: <b>30,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/7961b6efa0a9bf27954941801cea4919450eeb08_1771412232.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ماشین 207">
+        <br>
+        <p>ماشین 207</p>
+        <p>قیمت: <b>2,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/7756e19a1ac14b984166d76f26a6b290dcfbb8c4_1706601665.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="ماشین پیکان">
+        <br>
+        <p>ماشین پیکان</p>
+        <p>قیمت: <b>100,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/021c33e91a127ccbdd78a20c50f1e7b5d5542d63_1755788789.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="موتور سیکلت">
+        <br>
+        <p>موتور سیکلت</p>
+        <p>قیمت: <b>200,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/121031521.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="همبرگر">
+        <br>
+        <p>همبرگر</p>
+        <p>قیمت: <b>500,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/58542b686a69b4e746fc019bbe51aa14c7d5a0a2_1691245761.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="پیتزا">
+        <br>
+        <p>پیتزا</p>
+        <p>قیمت: <b>450,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/b44258d5ee6ee82ed5085be073f2d95ec3aa7cfe_1770840823.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="کوبیده و جوجه و ...">
+        <br>
+        <p>کوبیده و جوجه و ...</p>
+        <p>قیمت: <b>600,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/3559566.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="نوشابه">
+        <br>
+        <p>نوشابه</p>
+        <p>قیمت: <b>60,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/585cca76ca84220121baef495ac5cf07f4cb1ff1_1686723413.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="گربه">
+        <br>
+        <p>گربه</p>
+        <p>قیمت: <b>4,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/2d922b4340cfdb2f4d2ce05c6144c2cadf7b4144_1607174430.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="سگ">
+        <br>
+        <p>سگ</p>
+        <p>قیمت: <b>5,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/187935415753da064a0ff3c230165797eb84793f_1744637888.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="سگ">
+        <br>
+        <p>اسب</p>
+        <p>قیمت: <b>12,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/73d36703272c14e07cedcaff12c078de24811de1_1670940425.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="طوطی">
+        <br>
+        <p>طوطی</p>
+        <p>قیمت: <b>2,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/b0db3592ea3f61941f6c6e623312033b6eecebf2_1599459963.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="مجسمه کاکاسنگی">
+        <br>
+        <p>مجسمه کاکاسنگی</p>
+        <p>قیمت: <b>500,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/03b2835c21a0ab69e2f88c91fcdbdc0214eab3fd_1720685746.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="اکشن فیگور">
+        <br>
+        <p>مجموعه اکشن فیگور</p>
+        <p>قیمت: <b>3,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/38f4d90ea8952c1c8bbf75c067a3c5414f7bfd4b_1725800092.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="لگو">
+        <br>
+        <p>مجموعه لگو</p>
+        <p>قیمت: <b>500,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/49ed3c02230bbbed3bb36e5909d78c50d87875d6_1688140889.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="تابلو">
+        <br>
+        <p>تابلو</p>
+        <p>قیمت: <b>1,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/1f54e98d9b310d2a5abdfdec5ff0de57841cb514_1761344731.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="الماس">
+        <br>
+        <p>الماس</p>
+        <p>قیمت: <b>3,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/256b3143fa851ec6273f6d81ea5562a03d56cbd4_1777290381.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="شمش طلا">
+        <br>
+        <p>شمش طلا</p>
+        <p>قیمت: <b>200,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/9925af92dc6f6f30b02ac9cffc9222aaab94ad0c_1762159757.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="سکه طلا">
+        <br>
+        <p>سکه طلا</p>
+        <p>قیمت: <b>2,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/efd785b4d3ad6ca02a106cfe56203a10791ae39f_1698850870.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="حلقه طلا">
+        <br>
+        <p>حلقه ازدواج</p>
+        <p>قیمت: <b>80,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/120230559.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="برج ایفل">
+        <br>
+        <p>برج ایفل</p>
+        <p>قیمت: <b>12,000,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/892948.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="برج میلاد">
+        <br>
+        <p>برج میلاد</p>
+        <p>قیمت: <b>400,000,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/66b4f2934889ead7cdda12caad4e8d2980837ac7_1653279838.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="خانه">
+        <br>
+        <p>خانه</p>
+        <p>قیمت: <b>2,500,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/b2e9d5c4d35210a92d230fca97f72eed43a9ba82_1643797024.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="کلبه">
+        <br>
+        <p>کلبه چوبی</p>
+        <p>قیمت: <b>200,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/1b92d3964ae2ddaa3b51ab5576a86c4ccfc59cfd_1755771083.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="دوچرخه">
+        <br>
+        <p>دوچرخه</p>
+        <p>قیمت: <b>20,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/2e608f51a923b9cf10ba4087fb914b158227c118_1710404233.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="کتاب">
+        <br>
+        <p>کتاب</p>
+        <p>قیمت: <b>300,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/92fb1d77f29de16dcfd94d6b12fce0417c7e97cc_1754246027.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="دوربین عکاسی">
+        <br>
+        <p>دوربین عکاسی</p>
+        <p>قیمت: <b>120,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+
+
+    <div class="box">
+        <img class="image" src="https://dkstatics-public.digikala.com/digikala-products/4b3a02aecd0996f7658552ebac6aec80f2361def_1667808721.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90" alt="استخر">
+        <br>
+        <p>استخر</p>
+        <p>قیمت: <b>25,000,000</b></p>
+        <p>تعداد خریده شده:<b>0</b></p>
+        <input type="number" name="number" class="number" placeholder="تعداد(خرید/فروش) را وارد کنید"><br>
+        <button onclick="javascript:mk()">خرید</button>
+        <button onclick="javascript:sell()">فروش</button>
+    </div>
+ 
+
+
+    <footer>
+
+<p>آیا دوست داری ثروت یک میلیاردر رو خرج کنی؟</p>
+<p>توی این وبسایت میتونی ثروت لری پیج(برنامه نویس و میلیاردر) رو خرج کنی💸</p>
+<a href="https://github.com/ShayanCoder710/Spending_Jadi_money/" target="_blank">گیت هاب وبسایت</a>
+
+        <aside>
+
+            <button class="btn">
+                <a href="{{ url_for('jadi') }}" class="tdn">خرج کردن پول جادی</a>
+            </button>
+
+            <button class="btn">
+                <a href="{{ url_for('elonmusk') }}" class="tdn">خرج کردن پول ایلان ماسک</a>
+            </button>
+
+            <button class="btn">
+                <a href="{{ url_for('billgates') }}" class="tdn">خرج کردن پول بیل گیتس</a>
+            </button>
+
+            <button class="btn">
+                <a href="{{ url_for('jeffbezos') }}" class="tdn">خرج کردن پول جف بیزوس</a>
+            </button>
+
+            <button class="btn">
+                <a href="{{ url_for('markzuckerberg') }}" class="tdn">خرج کردن پول مارک زاکربرگ</a>
+            </button>
+
+        </aside>
+
+    </footer>
+
+
+
+
+<script>
+    var money = 7800000000000000
+    document.getElementById('money').innerText = money.toLocaleString()
+
+    // The JavaScript of this site has been written with artificial intelligence
+    function mk() {
+        let box = event.target.closest('.box')
+        let priceText = box.querySelectorAll('b')[0].innerText.replace(/,/g, '')
+        let countTag = box.querySelectorAll('b')[1]
+        let input = box.querySelector('.number')
+        let count = input.value
+        if (!count || count <= 0) count = 1
+        else count = parseInt(count)
+        let total = parseInt(priceText) * count
+        if (total > money) {
+            alert('پول لری برای این خرید کمه!')
+            return
+        }
+        money -= total
+        document.getElementById('money').innerText = money.toLocaleString()
+        let boughtCount = parseInt(countTag.innerText)
+        boughtCount += count
+        countTag.innerText = boughtCount
+    }
+
+    function sell() {
+        let box = event.target.closest('.box')
+        let priceText = box.querySelectorAll('b')[0].innerText.replace(/,/g, '')
+        let countTag = box.querySelectorAll('b')[1]
+        let input = box.querySelector('.number')
+        let count = input.value
+        if (!count || count <= 0) count = 1
+        else count = parseInt(count)
+        let boughtCount = parseInt(countTag.innerText)
+        if (count > boughtCount) {
+            alert('به این تعداد نداری که بفروشی!')
+            return
+        }
+        let total = parseInt(priceText) * count
+        money += total
+        document.getElementById('money').innerText = money.toLocaleString()
+        boughtCount -= count
+        countTag.innerText = boughtCount
+    }
+
+</script>
+
+
+</body>
+</html>
